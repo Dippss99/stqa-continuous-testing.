@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'YOUR_GITHUB_REPOSITORY_URL'
+                    url: 'https://github.com/Dippss99/stqa-continuous-testing..git'
             }
         }
 
